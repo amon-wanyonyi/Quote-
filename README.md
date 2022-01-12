@@ -5,3 +5,8 @@
 + Bootstrap
 + Angular 12
 + Typescript
+# HOW TO USE
+- cd to the place you want the application to be installed
+- git clone then paste repository link: https://github.com/amon-wanyonyi/Quote-, hit enter
+- cd to Quote-
+-ng serve --open to deploy the application
