@@ -10,3 +10,5 @@
 - git clone then paste repository link: https://github.com/amon-wanyonyi/Quote-, hit enter
 - cd to Quote-
 -ng serve --open to deploy the application
+# SCREENSHOT
+![Screenshot](/assets/Quote.png)
