@@ -12,3 +12,7 @@
 -ng serve --open to deploy the application
 # SCREENSHOT
 ![Screenshot](/assets/Quote.png)
+# REACH OUT
+### Contact me through: 
+- xxx110680@gmail.com
+- amon.wanyonyi.student@moringaschool.com
