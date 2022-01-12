@@ -1,0 +1,24 @@
+<div class="container">
+  <app-quote-form (Data)="fun($event)"></app-quote-form>
+  <div *ngFor="let quote of quotes; let i = index">
+    <h1>Publisher:{{quote.publisher}}</h1>
+    <h1>Author:{{quote.author}}</h1>
+    <h1 appHighlight *ngIf="quote.vote === Numbers && quote.vote > 0">Quote:{{quote.quote}}</h1>
+    <h1>Quote:{{quote.quote}}</h1>
+    <h1>Date:{{quote.date | date}}</h1>
+    <h1>Duration:{{quote.date | date}}</h1>
+    <h1>Quote Posted:{{quote.date | conter}} days ago</h1>
+
+    <div class="d-flex">
+        <div class="votelike m-3">
+            <button (click)="vote(i)" class="btn btn-success">Upvote {{quote.vote}}</button>
+          </div>
+          <div class="votedislike m-3">
+            <app-downvote></app-downvote>
+          </div>
+          <div class="delete m-3">
+            <app-delete (Del)="dels($event,i)"></app-delete>
+          </div>
+    </div>
+  </div>
+</div>
